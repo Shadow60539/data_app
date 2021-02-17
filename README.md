@@ -1,5 +1,5 @@
 
-[![support](https://img.shields.io/badge/plateform-flutter%7Candroid%20studio-9cf?style=for-the-badge&logo=appveyor)](https://github.com/Shadow60539/data_app)    ![GitHub forks](https://img.shields.io/github/forks/Shadow60539/data_app?style=for-the-badge)
+[![support](https://img.shields.io/badge/plateform-flutter%7Candroid%20studio-9cf?style=for-the-badge&logo=appveyor)](https://github.com/Shadow60539/data_app)      ![GitHub forks](https://img.shields.io/github/forks/Shadow60539/data_app?style=for-the-badge)     ![GitHub Repo stars](https://img.shields.io/github/stars/Shadow60539/data_app?style=for-the-badge)
 
 # Introduction
 
