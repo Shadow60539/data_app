@@ -1,16 +1,91 @@
-# data_app
 
-A new Flutter project.
+[![support](https://img.shields.io/badge/plateform-flutter%7Candroid%20studio-9cf?style=plastic&logo=appveyor)](https://github.com/Shadow60539/data_app)
 
-## Getting Started
+# Introduction
 
-This project is a starting point for a Flutter application.
+> “data_app”
+is a small, simple and beautiful app that displays data management in minimalistic desgin.
 
-A few resources to get you started if this is your first Flutter project:
+Before we start, you can take a look at the app:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![Output sample](images/demo.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- [x] UI is conmpleted.
+- [ ] Integrate device specific data.
+
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Shadow60539/data_app.git
+
+# Go into the repository
+$ cd data_app.git
+
+# Install dependencies
+$ flutter packages get
+
+# Run the app
+$ flutter run
+```
+
+
+### Packages
+
+
+Some very good packages are used in the project, not a big list.
+
+
+Below are the information about these packages.
+
+
+package | explain
+---|---
+[flutter_neumorphic](https://pub.flutter-io.cn/packages/flutter_neumorphic) | Neumorphic Soft Widget
+[font_awesome_flutter](https://pub.flutter-io.cn/packages/font_awesome_flutter) | Awesome icons
+[flutter_svg](https://pub.flutter-io.cn/packages/flutter_svg) | Support svg files
+[lottie](https://pub.flutter-io.cn/packages/lottie) | Lottie files animations
+[google_fonts](https://pub.flutter-io.cn/packages/google_fonts) | Google fonts 
+[lint](https://pub.flutter-io.cn/packages/lint) | Rules handler for Dart
+
+### Directory Structure
+
+The project directory structure is as follows:
+
+```
+├── android
+├── asset
+├── build
+├── images
+├── ios
+├── lib
+├── pubspec.lock
+├── pubspec.yaml
+
+```
+
+
+Let me explain the other directories besides **lib**:
+
+directory | explain
+---|---
+images | readme images files
+asset | images and lottie files
+
+Then the lib directory
+
+
+![lib](images/lib.png)
+
+
+
+directory | explain
+---|---
+core | Global Classes
+presentation | UI
+
